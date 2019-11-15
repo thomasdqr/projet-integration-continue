@@ -9,6 +9,6 @@ public class HelloControllerTest {
     void testIndex() {
         HelloController helloController = new HelloController();
         String resultIndex = helloController.index();
-        assertThat(resultIndex).isEqualTo("Hello !!");
+        assertThat(resultIndex).isEqualTo("Hello");
     }
 }
